@@ -1,36 +1,27 @@
-
-<?php  ?>
 <!DOCTYPE html>
-<html lang="pt_BR">
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <!-- This file has been downloaded from Bootsnipp.com. Enjoy! -->
-    <title>Reservas</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <title>Dashboard Template (Sidebar icons animated) - Bootsnipp.com</title>
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style2.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/painel.css">
-   
+ 
+    
+    
+    
     <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
-   
-    <style type="text/css">
-                @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
-@media(min-width:768px) {
-    body {
-        margin-top: 50px;
-    }
-    /*html, body, #wrapper, #page-wrapper {height: 100%; overflow: hidden;}*/
-}
-
-    </style>
-
-</head>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+   </head>
 <body>
 <div id="throbber" style="display:none; min-height:120px;"></div>
 <div id="noty-holder"></div>
 <div id="wrapper">
     <!-- Navigation -->
-    <nav class="navbar  navbar-inverse navbar-fixed-top" role="navigation"  >
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -39,21 +30,24 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-
-            <a class="navbar-brand" href="http://cijulenlinea.ucr.ac.cr/dev-users/" style="margin-left: 50px;">
-            <div class="thumbnail" style="width: 50px; height: 55px;">
-
-                 <img src="img/logo2.png" style="40px; height: 45px;">
-            </div>
-              
+            <a class="navbar-brand" href="http://cijulenlinea.ucr.ac.cr/dev-users/">
+                <img src="http://placehold.it/200x50&text=LOGO" alt="LOGO">
             </a>
         </div>
         <!-- Top Menu Items -->
         <ul class="nav navbar-right top-nav">
-            <li><a href="#" data-placement="bottom" data-toggle="tooltip" href="#" data-original-title="Stats"><i class="fa fa-bar-chart-o"></i>
-                </a>
-            </li>            
+               
             <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="fa fa-cog"></span>Config <b class="fa fa-angle-down"></b></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#"><i class="fa fa-fw fa-user"></i> Edit Profile</a></li>
+                    <li><a href="#"><i class="fa fa-fw fa-cog"></i> Change Password</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#"><i class="fa fa-fw fa-power-off"></i> Logout</a></li>
+                </ul>
+            </li> 
+               
+               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Admin User <b class="fa fa-angle-down"></b></a>
                 <ul class="dropdown-menu">
                     <li><a href="#"><i class="fa fa-fw fa-user"></i> Edit Profile</a></li>
@@ -62,13 +56,14 @@
                     <li><a href="#"><i class="fa fa-fw fa-power-off"></i> Logout</a></li>
                 </ul>
             </li>
+			
         </ul>
         <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
-        <div class="collapse navbar-collapse navbar-ex1-collapse" >
-            <ul class="nav navbar-nav side-nav" >
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav side-nav">
                 <li>
                     <a href="#" data-toggle="collapse" data-target="#submenu-1"><i class="fa fa-fw fa-search"></i> MENU 1 <i class="fa fa-fw fa-angle-down pull-right"></i></a>
-                    <ul id="submenu-1" class="collapse" >
+                    <ul id="submenu-1" class="collapse">
                         <li><a href="#"><i class="fa fa-angle-double-right"></i> SUBMENU 1.1</a></li>
                         <li><a href="#"><i class="fa fa-angle-double-right"></i> SUBMENU 1.2</a></li>
                         <li><a href="#"><i class="fa fa-angle-double-right"></i> SUBMENU 1.3</a></li>
@@ -100,9 +95,9 @@
         <div class="container-fluid">
             <!-- Page Heading -->
             <div class="row" id="main" >
-                <div class="col-sm-12 col-md-12" id="content">
-                    <
-                    <script>
+                <div class="col-sm-12 col-md-12 well" id="content">
+                    <br>
+                     <script>
 
     $(document).ready(function() {
         var date = new Date();
@@ -6385,10 +6380,7 @@ function HorizontalPositionCache(getElement) {
 
 })(jQuery);
 </script>
-
-
-
-
+               
                 </div>
             </div>
             <!-- /.row -->
