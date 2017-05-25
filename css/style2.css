@@ -23,6 +23,10 @@
 
 /* Top Navigation */
 
+.navbar-inverse {
+	background-color: #5a6b7d !important;
+}
+
 .top-nav {
     padding: 0 15px;
 }
