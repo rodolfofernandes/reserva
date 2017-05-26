@@ -19,18 +19,17 @@
 				</a>
 			</div>
 			<!-- Top Menu Items -->
+			<ul class="nav navbar-left top-nav">					
+				<li><a href="../calendar/"><i class="fa fa-fw fa-calendar"></i> Calendário</a></li>
+			</ul>
 			<ul class="nav navbar-right top-nav">
-
 				<li class="dropdown">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="fa fa-cog"></span> Config <b class="fa fa-angle-down"></b></a>
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="fa fa-cog"></span> Site Config <b class="fa fa-angle-down"></b></a>
 					<ul class="dropdown-menu">
-						<li><a href="#"><i class="fa fa-fw fa-user"></i> Edit Profile</a></li>
-						<li><a href="#"><i class="fa fa-fw fa-cog"></i> Change Password</a></li>
-						<li class="divider"></li>
-						<li><a href="#"><i class="fa fa-fw fa-power-off"></i> Logout</a></li>
+						<li><a href="../SiteConfig/general.php"><i class="fa fa-fw fa-list"></i> Geral </a></li>
+						<li><a href="../SiteConfig/WorkFlow.php"><i class="fa fa-fw fa-cog"></i> Work Flow</a></li>						
 					</ul>
 				</li>
-
 				<li class="dropdown">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Admin User <b class="fa fa-angle-down"></b></a>
 					<ul class="dropdown-menu">
@@ -79,5 +78,5 @@
 			<div class="container-fluid">
 				<!-- Page Heading -->
 				<div class="row" id="main">
-					<div class="col-sm-12 col-md-12 well" id="content">
-						<br>
+					<div class="col-sm-12 col-md-12 " id="content">
+						

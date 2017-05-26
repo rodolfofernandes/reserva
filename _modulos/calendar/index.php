@@ -1,7 +1,7 @@
 <?php 
 require"../inicialize.php";
 require"../header.php"; ?>
-
+<br><br>
 	
 						<script>
 							$(document).ready(function() {
@@ -68,21 +68,7 @@ require"../header.php"; ?>
 										day: 'MMMM yyyy' // Tuesday, Sep 8, 2009
 									},
 									allDaySlot: false,
-									selectHelper: true,
-									select: function(start, end, allDay) {
-										var title = prompt('Titulo do evento:');
-										if (title) {
-											calendar.fullCalendar('renderEvent', {
-													title: title,
-													start: start,
-													end: end,
-													allDay: allDay
-												},
-												true // make the event "stick"
-											);
-										}
-										calendar.fullCalendar('unselect');
-									},
+									selectHelper: true,									
 									droppable: true, // this allows things to be dropped onto the calendar !!!
 									drop: function(date, allDay) { // this function is called when something is dropped
 
